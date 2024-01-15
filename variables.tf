@@ -10,9 +10,9 @@ variable "region" {
   default     = "ap-south-1"
 }
 
-variable "ami_id" {
+variable "instance_type" {
   description = "Value of the Name tag for the EC2 instance"
   type        = string
-  default     = "ami-0c84181f02b974bc3"
+  default     = "t2.micro"
 }
 
